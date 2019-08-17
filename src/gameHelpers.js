@@ -3,5 +3,5 @@ export const STAGE_HEIGHT = 20;
 
 export const createStage = () =>
     Array.from(Array(STAGE_HEIGHT), () =>
-        NEW
+        new Array(STAGE_WIDTH).fill([0, 'clear'])
     )
